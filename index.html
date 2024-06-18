@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>upDownGame</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    #guess {
+      width: 100px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>UpDownGame</h1>
+  <p id="message">숫자를 맞춰보세요! (1~100)</p>
+  <input type="number" id="guess" min="1" max="100">
+  <button id="button" onclick="checkGuess()">맞추기</button>
+  <script src="/upDownGame/script.js"></script>
+</body>
+</html>
